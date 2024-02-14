@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		427A70962B7CFAB800EF7C03 /* Japen_vocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70952B7CFAB800EF7C03 /* Japen_vocaApp.swift */; };
+		427A70982B7CFAB800EF7C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70972B7CFAB800EF7C03 /* ContentView.swift */; };
+		427A709A2B7CFAB900EF7C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427A70992B7CFAB900EF7C03 /* Assets.xcassets */; };
+		427A709D2B7CFAB900EF7C03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427A709C2B7CFAB900EF7C03 /* Preview Assets.xcassets */; };
+		427A70A72B7CFAB900EF7C03 /* Japen_vocaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70A62B7CFAB900EF7C03 /* Japen_vocaTests.swift */; };
+		427A70B12B7CFAB900EF7C03 /* Japen_vocaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70B02B7CFAB900EF7C03 /* Japen_vocaUITests.swift */; };
+		427A70B32B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70B22B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		427A70A32B7CFAB900EF7C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 427A708A2B7CFAB800EF7C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427A70912B7CFAB800EF7C03;
+			remoteInfo = Japen_voca;
+		};
+		427A70AD2B7CFAB900EF7C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 427A708A2B7CFAB800EF7C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427A70912B7CFAB800EF7C03;
+			remoteInfo = Japen_voca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		427A70922B7CFAB800EF7C03 /* Japen_voca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japen_voca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427A70952B7CFAB800EF7C03 /* Japen_vocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaApp.swift; sourceTree = "<group>"; };
+		427A70972B7CFAB800EF7C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		427A70992B7CFAB900EF7C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427A709C2B7CFAB900EF7C03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		427A70A22B7CFAB900EF7C03 /* Japen_vocaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Japen_vocaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		427A70A62B7CFAB900EF7C03 /* Japen_vocaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaTests.swift; sourceTree = "<group>"; };
+		427A70AC2B7CFAB900EF7C03 /* Japen_vocaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Japen_vocaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		427A70B02B7CFAB900EF7C03 /* Japen_vocaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaUITests.swift; sourceTree = "<group>"; };
+		427A70B22B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427A708F2B7CFAB800EF7C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A709F2B7CFAB900EF7C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A70A92B7CFAB900EF7C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427A70892B7CFAB800EF7C03 = {
+			isa = PBXGroup;
+			children = (
+				427A70942B7CFAB800EF7C03 /* Japen_voca */,
+				427A70A52B7CFAB900EF7C03 /* Japen_vocaTests */,
+				427A70AF2B7CFAB900EF7C03 /* Japen_vocaUITests */,
+				427A70932B7CFAB800EF7C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		427A70932B7CFAB800EF7C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427A70922B7CFAB800EF7C03 /* Japen_voca.app */,
+				427A70A22B7CFAB900EF7C03 /* Japen_vocaTests.xctest */,
+				427A70AC2B7CFAB900EF7C03 /* Japen_vocaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427A70942B7CFAB800EF7C03 /* Japen_voca */ = {
+			isa = PBXGroup;
+			children = (
+				427A70952B7CFAB800EF7C03 /* Japen_vocaApp.swift */,
+				427A70972B7CFAB800EF7C03 /* ContentView.swift */,
+				427A70992B7CFAB900EF7C03 /* Assets.xcassets */,
+				427A709B2B7CFAB900EF7C03 /* Preview Content */,
+			);
+			path = Japen_voca;
+			sourceTree = "<group>";
+		};
+		427A709B2B7CFAB900EF7C03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				427A709C2B7CFAB900EF7C03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		427A70A52B7CFAB900EF7C03 /* Japen_vocaTests */ = {
+			isa = PBXGroup;
+			children = (
+				427A70A62B7CFAB900EF7C03 /* Japen_vocaTests.swift */,
+			);
+			path = Japen_vocaTests;
+			sourceTree = "<group>";
+		};
+		427A70AF2B7CFAB900EF7C03 /* Japen_vocaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				427A70B02B7CFAB900EF7C03 /* Japen_vocaUITests.swift */,
+				427A70B22B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift */,
+			);
+			path = Japen_vocaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427A70912B7CFAB800EF7C03 /* Japen_voca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427A70B62B7CFAB900EF7C03 /* Build configuration list for PBXNativeTarget "Japen_voca" */;
+			buildPhases = (
+				427A708E2B7CFAB800EF7C03 /* Sources */,
+				427A708F2B7CFAB800EF7C03 /* Frameworks */,
+				427A70902B7CFAB800EF7C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Japen_voca;
+			productName = Japen_voca;
+			productReference = 427A70922B7CFAB800EF7C03 /* Japen_voca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		427A70A12B7CFAB900EF7C03 /* Japen_vocaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427A70B92B7CFAB900EF7C03 /* Build configuration list for PBXNativeTarget "Japen_vocaTests" */;
+			buildPhases = (
+				427A709E2B7CFAB900EF7C03 /* Sources */,
+				427A709F2B7CFAB900EF7C03 /* Frameworks */,
+				427A70A02B7CFAB900EF7C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427A70A42B7CFAB900EF7C03 /* PBXTargetDependency */,
+			);
+			name = Japen_vocaTests;
+			productName = Japen_vocaTests;
+			productReference = 427A70A22B7CFAB900EF7C03 /* Japen_vocaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		427A70AB2B7CFAB900EF7C03 /* Japen_vocaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427A70BC2B7CFAB900EF7C03 /* Build configuration list for PBXNativeTarget "Japen_vocaUITests" */;
+			buildPhases = (
+				427A70A82B7CFAB900EF7C03 /* Sources */,
+				427A70A92B7CFAB900EF7C03 /* Frameworks */,
+				427A70AA2B7CFAB900EF7C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427A70AE2B7CFAB900EF7C03 /* PBXTargetDependency */,
+			);
+			name = Japen_vocaUITests;
+			productName = Japen_vocaUITests;
+			productReference = 427A70AC2B7CFAB900EF7C03 /* Japen_vocaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427A708A2B7CFAB800EF7C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					427A70912B7CFAB800EF7C03 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					427A70A12B7CFAB900EF7C03 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 427A70912B7CFAB800EF7C03;
+					};
+					427A70AB2B7CFAB900EF7C03 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 427A70912B7CFAB800EF7C03;
+					};
+				};
+			};
+			buildConfigurationList = 427A708D2B7CFAB800EF7C03 /* Build configuration list for PBXProject "Japen_voca" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427A70892B7CFAB800EF7C03;
+			productRefGroup = 427A70932B7CFAB800EF7C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427A70912B7CFAB800EF7C03 /* Japen_voca */,
+				427A70A12B7CFAB900EF7C03 /* Japen_vocaTests */,
+				427A70AB2B7CFAB900EF7C03 /* Japen_vocaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427A70902B7CFAB800EF7C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A709D2B7CFAB900EF7C03 /* Preview Assets.xcassets in Resources */,
+				427A709A2B7CFAB900EF7C03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A70A02B7CFAB900EF7C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A70AA2B7CFAB900EF7C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427A708E2B7CFAB800EF7C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A70982B7CFAB800EF7C03 /* ContentView.swift in Sources */,
+				427A70962B7CFAB800EF7C03 /* Japen_vocaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A709E2B7CFAB900EF7C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A70A72B7CFAB900EF7C03 /* Japen_vocaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A70A82B7CFAB900EF7C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427A70B32B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift in Sources */,
+				427A70B12B7CFAB900EF7C03 /* Japen_vocaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		427A70A42B7CFAB900EF7C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427A70912B7CFAB800EF7C03 /* Japen_voca */;
+			targetProxy = 427A70A32B7CFAB900EF7C03 /* PBXContainerItemProxy */;
+		};
+		427A70AE2B7CFAB900EF7C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427A70912B7CFAB800EF7C03 /* Japen_voca */;
+			targetProxy = 427A70AD2B7CFAB900EF7C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		427A70B42B7CFAB900EF7C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		427A70B52B7CFAB900EF7C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427A70B72B7CFAB900EF7C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Japen_voca/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UQJWXQTJD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Japen-voca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427A70B82B7CFAB900EF7C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Japen_voca/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UQJWXQTJD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Japen-voca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		427A70BA2B7CFAB900EF7C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQJWXQTJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Japen-vocaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japen_voca.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Japen_voca";
+			};
+			name = Debug;
+		};
+		427A70BB2B7CFAB900EF7C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQJWXQTJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Japen-vocaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japen_voca.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Japen_voca";
+			};
+			name = Release;
+		};
+		427A70BD2B7CFAB900EF7C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQJWXQTJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Japen-vocaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Japen_voca;
+			};
+			name = Debug;
+		};
+		427A70BE2B7CFAB900EF7C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQJWXQTJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Japen-vocaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Japen_voca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427A708D2B7CFAB800EF7C03 /* Build configuration list for PBXProject "Japen_voca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427A70B42B7CFAB900EF7C03 /* Debug */,
+				427A70B52B7CFAB900EF7C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427A70B62B7CFAB900EF7C03 /* Build configuration list for PBXNativeTarget "Japen_voca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427A70B72B7CFAB900EF7C03 /* Debug */,
+				427A70B82B7CFAB900EF7C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427A70B92B7CFAB900EF7C03 /* Build configuration list for PBXNativeTarget "Japen_vocaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427A70BA2B7CFAB900EF7C03 /* Debug */,
+				427A70BB2B7CFAB900EF7C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427A70BC2B7CFAB900EF7C03 /* Build configuration list for PBXNativeTarget "Japen_vocaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427A70BD2B7CFAB900EF7C03 /* Debug */,
+				427A70BE2B7CFAB900EF7C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427A708A2B7CFAB800EF7C03 /* Project object */;
+}
