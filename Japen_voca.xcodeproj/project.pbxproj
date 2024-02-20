@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		427A70962B7CFAB800EF7C03 /* Japen_vocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70952B7CFAB800EF7C03 /* Japen_vocaApp.swift */; };
-		427A70982B7CFAB800EF7C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70972B7CFAB800EF7C03 /* ContentView.swift */; };
+		427A70982B7CFAB800EF7C03 /* ContentView-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70972B7CFAB800EF7C03 /* ContentView-View.swift */; };
 		427A709A2B7CFAB900EF7C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427A70992B7CFAB900EF7C03 /* Assets.xcassets */; };
 		427A709D2B7CFAB900EF7C03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427A709C2B7CFAB900EF7C03 /* Preview Assets.xcassets */; };
 		427A70A72B7CFAB900EF7C03 /* Japen_vocaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70A62B7CFAB900EF7C03 /* Japen_vocaTests.swift */; };
 		427A70B12B7CFAB900EF7C03 /* Japen_vocaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70B02B7CFAB900EF7C03 /* Japen_vocaUITests.swift */; };
 		427A70B32B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A70B22B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift */; };
+		42CFBDBC2B7DF47F0003921F /* block_mannager-Modle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFBDBB2B7DF47F0003921F /* block_mannager-Modle.swift */; };
+		42CFBDBE2B7DF5180003921F /* file_mannager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFBDBD2B7DF5180003921F /* file_mannager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		427A70922B7CFAB800EF7C03 /* Japen_voca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japen_voca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427A70952B7CFAB800EF7C03 /* Japen_vocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaApp.swift; sourceTree = "<group>"; };
-		427A70972B7CFAB800EF7C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		427A70972B7CFAB800EF7C03 /* ContentView-View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-View.swift"; sourceTree = "<group>"; };
 		427A70992B7CFAB900EF7C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		427A709C2B7CFAB900EF7C03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		427A70A22B7CFAB900EF7C03 /* Japen_vocaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Japen_vocaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		427A70AC2B7CFAB900EF7C03 /* Japen_vocaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Japen_vocaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		427A70B02B7CFAB900EF7C03 /* Japen_vocaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaUITests.swift; sourceTree = "<group>"; };
 		427A70B22B7CFAB900EF7C03 /* Japen_vocaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japen_vocaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42CFBDBB2B7DF47F0003921F /* block_mannager-Modle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "block_mannager-Modle.swift"; sourceTree = "<group>"; };
+		42CFBDBD2B7DF5180003921F /* file_mannager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file_mannager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				427A70952B7CFAB800EF7C03 /* Japen_vocaApp.swift */,
-				427A70972B7CFAB800EF7C03 /* ContentView.swift */,
+				427A70972B7CFAB800EF7C03 /* ContentView-View.swift */,
 				427A70992B7CFAB900EF7C03 /* Assets.xcassets */,
+				42CFBDBB2B7DF47F0003921F /* block_mannager-Modle.swift */,
+				42CFBDBD2B7DF5180003921F /* file_mannager.swift */,
 				427A709B2B7CFAB900EF7C03 /* Preview Content */,
 			);
 			path = Japen_voca;
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				427A70982B7CFAB800EF7C03 /* ContentView.swift in Sources */,
+				42CFBDBC2B7DF47F0003921F /* block_mannager-Modle.swift in Sources */,
+				427A70982B7CFAB800EF7C03 /* ContentView-View.swift in Sources */,
+				42CFBDBE2B7DF5180003921F /* file_mannager.swift in Sources */,
 				427A70962B7CFAB800EF7C03 /* Japen_vocaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
