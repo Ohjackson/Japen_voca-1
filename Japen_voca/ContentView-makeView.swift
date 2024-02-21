@@ -35,32 +35,20 @@ struct ContentView: View {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //make blaock, 추가하는 블럭이기에 View protocol를 사용⭐️
 struct block : View {
     
     @Binding var count: Int
   
     
-    // Creating a TextField''s var
+    // Creating a TextField
     @State  var textValue1: String = ""
     @State  var textValue2: String = ""
     @State  var textValue3: String = ""
 
     
-    // Creating a 생성자
+    // Creating a 생성자? - 전역으로 처리하여 에러 방지
+    
     @State  var carrier = Mannager.init(kannji: "", hiragana: "", kannkokugo: "")
     
     
@@ -88,19 +76,37 @@ struct block : View {
                 
                 
                 //처음 생성이면
-                if count < 2 {
+                if count > 2 {
                     //static 이기에⭐️⭐️
                     FileSaver.save(text: carrier.test)
-                }else{
-                    
-                    //처음 생성이 아니면
-                    FileSaver.append(text: carrier.test)
                 }
+                //처음 생성이 아니면
+                FileSaver.append(text: carrier.test)
+                
             }
             
         }
         
         .textFieldStyle(RoundedBorderTextFieldStyle())
+        .padding() // 패딩 추가
+        .background(Color.gray.opacity(0.5)) // 배경색 추가
+        .cornerRadius(8) // 모서리 둥글게
+        .padding(.horizontal) // 수평 방향으로 패딩 추가
+//        .padding()
+    }
+    
+}
+
+
+// 간단한 HStack 뷰 구현
+struct HStackView: View {
+    
+    var body: some View {
+        HStack {
+            Text("Left")
+            Spacer() // HStack 내부의 뷰들 사이에 공간을 추가
+            Text("Right")
+        }
         .padding() // 패딩 추가
         .background(Color.gray.opacity(0.5)) // 배경색 추가
         .cornerRadius(8) // 모서리 둥글게
@@ -114,9 +120,11 @@ struct block : View {
 
 
 
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-

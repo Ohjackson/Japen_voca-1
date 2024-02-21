@@ -8,7 +8,6 @@
 import Foundation
 
 
-// caution!!!!!!!!!!! - watch out when you named you sturct
 struct Mannager {
     
      var kannji : String
